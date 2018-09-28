@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.1.3
+FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.4.1
 
 MAINTAINER Wouter Vernaillen <wouter@triberay.com>
 

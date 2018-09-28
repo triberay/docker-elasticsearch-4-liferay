@@ -1,5 +1,8 @@
 cluster.name: LiferayElasticsearchCluster
 node.name: LiferayElasticsearchCluster
-network.host: 0.0.0.0
 discovery.zen.minimum_master_nodes: 1
 bootstrap.memory_lock: true
+network.host: 0.0.0.0
+http.port: 9200
+transport.host: elasticsearch
+transport.tcp.port: 9300
